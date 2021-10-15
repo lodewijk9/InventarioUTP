@@ -12,7 +12,6 @@
     "node": ">=10.16"
   },
 
-
   "scripts": {
     "build": "lb-tsc",
     "build:watch": "lb-tsc --watch",
@@ -38,6 +37,7 @@
     "clean": "lb-clean dist *.tsbuildinfo .eslintcache",
     "rebuild": "npm run clean && npm run build"
   },
+
    
   "repository": {
     "type": "git",
